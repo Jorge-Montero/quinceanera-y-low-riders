@@ -2,12 +2,12 @@
 **Quinceanera**-y-_Low-Riders_
 new venues available
 
-Dress for the Special Night
+**_Dress for the Special Night_**
 Selections for the Party
-While Enjoying a Vacatione 
+While Enjoying a Vacation 
 
-_Capture the Moment_ 
+**_Capture the Moment_** 
 Photograghy
 
-_Breath taking Views and Venues_
+**_Breath taking Views and Venues_**
 Halls for rent and Venues to Enjoy
