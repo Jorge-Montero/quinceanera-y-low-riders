@@ -3,7 +3,7 @@
 new venues available
 
 **_Dress for the Special Night_**
-Selections for the Party
+Selections for the Party or
 While Enjoying a Vacation 
 
 **_Capture the Moment_** 
