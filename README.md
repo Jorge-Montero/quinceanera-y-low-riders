@@ -16,7 +16,7 @@
  
  ## _Events_
  - Event Calendar of "Shows and Competitions"
- - Car Club Listings Rental Options
+ - Car Club Listings with Rental Options
  - Photography
  
  ## _Clubs_
