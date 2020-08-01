@@ -1,11 +1,18 @@
 # Quinceanera-y-_Low-Riders_
 
+**Birthday Celebration**
+
+## _Fairy Godmother's Help with_
+- Hair and Nails Appointments (List of Salons)
+- Flowers and Decorations (List of Flower Shops)
+- Recuerdos -"Souviners" (List of Event Coordinators)
+
 ## _Dress for the Special Night_
-- Selections for the Party
-- Something to Sport While Enjoying a Vacation 
+- Selections for the Party (List of Special Event Tailors)
+- Something to Sport While Enjoying a Vacation (List of Tailors) 
 
 ## **_Capture the Moment_** 
-- Photograghy
+- Photograghy 
 - Social Media
 - Video 
 
