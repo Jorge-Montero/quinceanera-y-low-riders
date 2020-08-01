@@ -1,11 +1,8 @@
-# quinceanera-y-low-riders
 # Quinceanera-y-_Low-Riders_
-
 
 ## _Dress for the Special Night_
 - Selections for the Party
-           or
-- While Enjoying a Vacation 
+- Something to Sport While Enjoying a Vacation 
 
 ## **_Capture the Moment_** 
 - Photograghy
@@ -15,15 +12,15 @@
 ## **_Breath taking Views and Venues_**
 - Halls for rent and Venues to Enjoy
 
-# Low-Riders
+# _Low-Riders_
  
- ## _Events _
+ ## _Events_
  - Event Calendar of "Shows and Competitions"
- - Photography 
  - Car Club Listings Rental Options
+ - Photography
  
  ## _Clubs_
- - List of Types of Cars in Clubs
- - Auto Body Shop Listing "Custom Painters"
+ - List of Vehicle Models in Clubs
+ - Auto Body Shop Listing : "Custom Painters"
  - Hydraulic Dealers and Distributors
  - Car Club Mechanics
