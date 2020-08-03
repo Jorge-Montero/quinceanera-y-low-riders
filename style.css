@@ -1,0 +1,25 @@
+header{
+    text-align: center;
+}
+title {
+    text-align: center;
+}
+body {
+    text-align: center;
+}
+h1 {
+    font-style: italic;
+}
+.hair {
+    font-style: italic;
+    border-radius: 29%;
+    border-style: dotted;
+    border-width: 350px;
+    background:  #D09CEA;
+}
+.flowers {
+    font-style: italic;
+} 
+.decorations {
+    font-style: italic;
+}
