@@ -23,3 +23,9 @@ h1 {
 .decorations {
     font-style: italic;
 }
+.locations {
+    width: 350px;
+    height: 300px;
+    border-radius: 32%;
+    border-style: dotted,
+}
