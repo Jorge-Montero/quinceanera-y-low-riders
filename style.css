@@ -23,8 +23,12 @@ h1 {
 .decorations {
     font-style: italic;
 }
+.photo {
+    text-align: center;
+}
 .locations {
-    width: 350px;
+    display: flex;
+    width: 50%;
     height: 300px;
     border-radius: 32%;
     border-style: dotted,
