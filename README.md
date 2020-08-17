@@ -2,9 +2,9 @@
 
 **Birthday Celebration**
 
-## _Fairy Godmother's Help with_
-- 
-- ## _Dress for the Special Night_
+## **_Fairy Godmother's Help with_**
+
+## **_Dress for the Special Night_**
 - Selections for the Party (List of Special Event Tailors)
 - Something to Sport While Enjoying a Vacation (List of Tailors) 
 
@@ -13,12 +13,12 @@
 - Social Media 
 
 ## **_Coreogrphy_**
-(List of Event Coordinators also)
+- (List of Event Coordinators also)
 
 ## **_Recuerdos -"Souviners"_** Flowers and Decorations 
-  (List of Flower Shops)  
+- (List of Flower Shops)  
 
-- 
+
 # _Low-Riders_
  
  ## _Events_
