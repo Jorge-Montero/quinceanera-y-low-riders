@@ -1,35 +1,90 @@
-header{
+#header{
+    margin-top: 0;
     text-align: center;
+    text-style: italic;
 }
-title {
+#title {
+    text-color: red;
     text-align: center;
-}
+    font-weight: bold;
+    font-family: "Apple Chancery", cursive;
+} 
 body {
     text-align: center;
+}
+#container-celebrate {
+  width: 450px;
+  height: 105px;
+  text-align: center;
+  border-color: gold;
+  border-style: dotted;
+  background: pink;
+  border-radius: 35%;
+  margin:  auto;
+  padding: 2%;
 }
 h1 {
     font-style: italic;
 }
-.hair {
+#dress {
+  width: 300px;
+  height: 200px;
+  background: pink;
+  border-radius: 35%;
+  border-color: gold;
+  border-style: dotted;
+  margin: auto;
+  padding: 2%;  
+}
+
+#hair {
+    text-align: center;
     font-style: italic;
-    border-radius: 29%;
+    border-radius: 1%;
     border-style: dotted;
-    border-width: 350px;
-    background:  #D09CEA;
+    width: 250px;
+    height: 175px;
+    background: pink;
 }
 .flowers {
+    float: right;
     font-style: italic;
+     text-align: center;
+    font-style: italic;
+    border-radius: 1%;
+    border-style: dotted;
+    width: 250px;
+    height: 175px;
+    background: orange;
 } 
-.decorations {
+#decorations {
     font-style: italic;
+    text-align: center;
+    font-style: italic;
+    border-radius: 1%;
+    border-style: dotted;
+    width: 250px;
+    height: 175px;
+    background: blue;
 }
 .photo {
     text-align: center;
+     text-align: center;
+    font-style: italic;
+    border-radius: 1%;
+    border-style: dotted;
+    width: 250px;
+    height: 175px;
+    background: green;
 }
 .locations {
+    float: right;
+    text-align: center;
     display: flex;
-    width: 50%;
-    height: 300px;
-    border-radius: 32%;
-    border-style: dotted,
+    border-style: dotted;
+    font-style: italic;
+    border-radius: 1%;
+    width: 250px;
+    height: 175px;
+    background: pink;
 }
