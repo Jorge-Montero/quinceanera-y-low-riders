@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-
-
     <h1 id="title">
         Quinceanaera
     </h1>
@@ -16,34 +13,43 @@
             <div class="col-xs-2">
                 <div class="well">
                     <ul>
+                        <buttons type="button" class="btn btn-info target">
+                            <li>
+                                <i class="fas fa-info-circle"></i>
+                                    Venue
+                                </li>
+                        </buttons>
+                </div>
+            </div>
+            <div class="col-xs-2">
+                <div class="well">
+                    <buttons type="button" class="btn btn-info target">
                         <li>
                             <i class="fas fa-info-circle"></i>
-                                Venue
+                                Church
                         </li>
+                    </buttons>
                 </div>
             </div>
             <div class="col-xs-2">
                 <div class="well">
-                    <li>
-                        <i class="fas fa-info-circle"></i>
-                             Church
-                    </li>
-                </div>
-            </div>
-            <div class="col-xs-2">
-                <div class="well">
-                    <li>
-                        <i class="fas fa-info-circle"></i>
-                            Dress
-                    </li>
+                    <buttons type="button" class="btn btn-info target">
+                        <li>
+                            <i class="fas fa-info-circle"></i>
+                                Dress
+                        </li>
+                    </buttons>
                 </div>
             </div>
             <div class="col-xs-2">
                 <div class="well"> 
-                    <li> <!-- using span here to see if any different?-->
-                        <span class="fas fa-info-circle"></span>
-                             Photographer
-                    </li>
+                    <buttons type="button" class="btn btn-info target">
+                        <li> <!-- using span here to see if any different?-->
+                            <span class="fas fa-info-circle">
+                                 Photographer
+                            </span>
+                        </li>
+                    </buttons>
                 </div>
             </div>
                     </ul>
@@ -51,45 +57,54 @@
     </nav>
 </header>
 <body> 
-    <section id="venue-1">
-        <div class="img-responsive">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRr_VGgilrp14SAwsnnjiU6Tf2veLTMgyGpRw&usqp=CAU" alt="venue">
-        </div>    
-        <div class="container">
-            <h2>
-                <section id="container-celebrate">
-                    <p>
-                        Time to Celebrate
-                    </p>
-                    <p>
-                        Have You ......
-                    </p>
-            </h2>
+    <div class="row">
+        <div class="col-xs-8">
+            <section id="venue-1">
+                <div class="img-responsive">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRr_VGgilrp14SAwsnnjiU6Tf2veLTMgyGpRw&usqp=CAU" alt="venue">
+                </div>
+        </div>  
+        <div class="col-s-4"> 
+            <div class="container">
+                <h2>
+                    <section id="container-celebrate">
+                        <p>
+                            Time to Celebrate
+                        </p>
+                        <p>
+                            Have You ......
+                        </p>
+                </h2>
+            </div>
         </div>
     </section>
-    <div class="container">
-       
-    </div>
-    <div class="dress-container">
-        <h3>
-          
-            <p>
-            Selected a  
-            <input type="checkbox" name="to-do-list">  
-            <div class="form-group">
-                <button type="submit" id="Dress" class="submit-button">Dress</button>
+</div>
+    <div class="row">
+        <div class="col-xs-6">
+            <div class="well">  
+                <h3>
+                    <p>
+                        Selected a  
+                    <input type="checkbox" name="to-do-list">  
+                        <div class="form-group">
+                            <button type="submit" id="Dress" class="submit-button">
+                                Dress
+                            </button>
+                        </div>
             </div>
+        </div>
         </h3>
             from these Unique
                 <a href="#">
                     Tailors<!--link to Tailors-->
-                 </a> 
+                </a> 
             </p>
             <ol>
                 <li>
                     Contact for Styles 
                 </li>
             </ol>
+            </div>
     </div>
     <div class="hair">
         <input type="checkbox" name="to-do-list">Hair
