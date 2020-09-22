@@ -82,23 +82,21 @@
     <div class="row">
         <div class="col-xs-6">
             <div class="well">  
-                <h3>
-                    <p>
-                        Selected a  
+                <h4>
+                    Selected a  
                     <input type="checkbox" name="to-do-list">  
                         <div class="form-group">
                             <button type="submit" id="Dress" class="submit-button">
                                 Dress
                             </button>
                         </div>
+                        from these Unique
+                        <a href="#">
+                            Tailors<!--link to Tailors-->
+                        </a> 
+                </h4>
             </div>
         </div>
-        </h3>
-            from these Unique
-                <a href="#">
-                    Tailors<!--link to Tailors-->
-                </a> 
-            </p>
             <ol>
                 <li>
                     Contact for Styles 
@@ -106,26 +104,52 @@
             </ol>
             </div>
     </div>
-    <div class="hair">
-        <input type="checkbox" name="to-do-list">Hair
-            <h3>
-                <p>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <div class="input-group-text">
+                <h4>
                     Contacted a 
                     <a href="#"> 
                         Salon
-                    </a> <!--?should we make a list or link to another page with list?-->
-                </p>
-            </h3>
-            <ol>
-                <li>
-                    Contact for Appointments
-                </li>
-                <li>
+                    </a> 
+                </h4>
+                <input type="text" class="form-control" aria-label="Text input with checkbox">
+                        <li>
+                            Contact for Appointments
+                        </li>
+                <input type="checkbox" aria-label="Checkbox for following text input">
                     Hair and Nail Styles
-                </li>
-            </ol>
-     </div>
-    
+                
+                <ol>
+                    
+                </ol>
+            </div>
+        </div>
+    </div>
+        
+      </div>
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <button type="button" class="btn btn-secondary">
+            Flowers
+        </button>
+        <button type="button" class="btn btn-secondary">
+            Dance
+        </button>
+        <div class="btn-group" role="group">
+            <button id="btnDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Select
+            </button>
+            <div class="dropdown-menu" aria-labelledby="btnDrop1">
+                <a class="dropdown-item" href="#">
+                    Flower shop
+                </a>
+                <a class="dropdown-item" href="#">
+                    Choreograher
+                </a>
+            </div>
+        </div>
+    </div>
+      <!--
     <div class="flowers">
         <input type="checkbox" name="to-do-list">Flowers
             <h3>
@@ -146,7 +170,7 @@
                     </a>
                 </li>
             </ol>
-    </div>
+    </div>-->
     <div class="decorations">
         <input type="checkbox" name="to-do-list">
             Decorations
