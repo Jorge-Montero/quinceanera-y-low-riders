@@ -22,12 +22,12 @@
 }
 #venue-2 {
     width: 300px;
-    height: 300px;
+    height: 200px;
     border-radius: 35%;
 }
 #venue-3 {
-    width: auto;
-    height: 550px;
+    width: 1000px;
+    height: 700px;
     border-radius: 25%;
 }
 body {
@@ -57,20 +57,29 @@ h1 {
     height: 300px;
     border-radius: 35%;
 }
+
+#vestido-button {
+    border-radius: 25%;
+    width: 200px;
+    opacity: 0.9;
+    
+}
 #pink-dress {
     text-align: center;
     border-radius: 10%;
     background: turquoise;
-    height: 200px;
+    height: 150px;
     width: 375px;
     font-style: italic;
 }
 #dress { 
+  text-align: right;
+ 
   font-weight: bold; 
   font-style: italic;  
-  color:blue;
-  width: 200px;
-  height: 275px;
+  color:rgb(164, 164, 224);
+  width: 400px;
+  height: 290px;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRACs1xSNFbzU4UJPGBDmTrQYqAanVwW8lyA&usqp=CAU);
   border-radius: 25%;
   border-color: gold;
