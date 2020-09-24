@@ -5,6 +5,7 @@
 #nav-bar {
     width: auto;
 }
+
 #title {
     font-size: 75px;
     border-block-style: dotted;
@@ -49,6 +50,19 @@ body {
   opacity: 0.7;
 }
 h1 {
+    font-style: italic;
+}
+#church-1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 35%;
+}
+#pink-dress {
+    text-align: center;
+    border-radius: 10%;
+    background: turquoise;
+    height: 200px;
+    width: 375px;
     font-style: italic;
 }
 #dress { 
