@@ -1,7 +1,10 @@
 #header{
-    margin-top: 0;
+    
     text-align: center;
     text-style: italic;
+}
+#nav-bar {
+    width: auto;
 }
 #title {
     text-color: red;
@@ -9,10 +12,14 @@
     font-weight: bold;
     font-family: "Apple Chancery", cursive;
 } 
+#purple-venue {
+    width: 200px;
+    height: 300px;
+}
 body {
     text-align: center;
 }
-#container-celebrate {
+#celebrate {
   width: 450px;
   height: 105px;
   text-align: center;
