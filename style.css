@@ -16,16 +16,19 @@
     font-family: "Apple Chancery", cursive;
 } 
 #venue-1 {
+    background-color: transparent;
     width: 300px;
     height: 300px;
     border-radius: 35%;
 }
 #venue-2 {
+    background-color: transparent;
     width: 300px;
     height: 200px;
     border-radius: 35%;
 }
 #venue-3 {
+    background-color: transparent;
     width: 1000px;
     height: 700px;
     border-radius: 25%;
@@ -53,7 +56,7 @@ h1 {
     font-style: italic;
 }
 #church-1 {
-    image-resolution: 100%;
+    
     width: 300px;
     height: 300px;
     border-radius: 35%;
@@ -141,10 +144,16 @@ h1 {
 }
 #church-well {
     background-color: transparent;
-    backface-visibility: hidden;
-    width: 520px;
+    width: 300px;
+    height: 200px;
     border-radius: 35%;
     
+}
+#venue-well {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border-radius: 35%;
 }
 .locations {
     float: right;
