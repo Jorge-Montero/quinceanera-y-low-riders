@@ -6,36 +6,43 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
+    <h5 id="return-to-top"></h5>
     <h1 id="title">
         Quinceanaera
     </h1> 
-    <nav id="nav-bar">
-        <div class="row">
-            <div class="col-xs-2">
-                <div class="well">
-                    <buttons type="button" class="btn btn-info target">
-                        <span class="fas fa-archway">
-                            Venue
-                        </span>
-                    </buttons>
+        <nav id="nav-bar">
+            <div class="row">
+                <div class="col-xs-2">
+                    <div class="well">
+                        <buttons type="button" class="btn btn-info target">
+                            <span class="fas fa-archway">
+                                <a href="#venue-2">
+                                    Venue
+                                </a>
+                            </span>
+                        </buttons>
+                    </div>
                 </div>
-            </div>
-            <div class="col-xs-2">
-                <div class="well">
-                    <buttons type="button" class="btn btn-info target">
-                        <span class="fas fa-church">
-                            Church
-                        </span>
-                    </buttons>
-                </div>
-            </div>   
-        </div>     
-        <div class="row">
-            <div class="col-xs-2">
-                <div class="well">
-                    <buttons type="button" class="btn btn-info target">
-                        <span class="fas fa-female">
-                            Dress
+                <div class="col-xs-2">
+                    <div class="well">
+                        <buttons type="button" class="btn btn-info target">
+                            <span class="fas fa-church">
+                                <a href="#church-1">
+                                    Church
+                                </a>
+                            </span>
+                        </buttons>
+                    </div>
+                </div>   
+            </div>     
+            <div class="row">
+                <div class="col-xs-2">
+                    <div class="well">
+                        <buttons type="button" class="btn btn-info target">
+                            <span class="fas fa-female">
+                                <a href="#dress">
+                                    Dress
+                                </a>
                         </span>
                     </buttons>
                 </div>
@@ -44,7 +51,9 @@
                 <div class="well"> 
                     <buttons type="button" class="btn btn-info target">
                         <span class="fas fa-camera">
-                            Photographer
+                            <a href="#">
+                                Photographer
+                            </a>
                         </span>
                     </buttons>
                 </div>
@@ -116,6 +125,7 @@
                 </div>
             </div>
         </div>
+        <!-- {useful ifo}
     <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
         <button type="button" class="btn btn-secondary">
             Flowers
@@ -136,7 +146,8 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div>-->
+             
       <!--
     <div class="flowers">
         <input type="checkbox" name="to-do-list">Flowers
@@ -159,20 +170,24 @@
                 </li>
             </ol>
     </div>-->
-    <div class="decorations">
-        <div>
-            <img id="venue-3" src="https://www.labanquets.com/galleries/glenoaks/Glenoaks%20Ballroom%20by%20LA%20Banquets%20Wedding%20Venuesin%20Los%20Angeles%20and%20Banquet%20Halls%20in%20Glendale%20CA(05).jpg"/>
-        </div> 
-        <input type="checkbox" name="to-do-list"/>
-            Decorations
-        <h3>
-            <p>
-                Recuerdos / Souviners ideas with an
+    <div id="decorations" class="container">
+        <div> 
+            <h4>
+                <input type="checkbox" name="to-do-list"/>
+                Decorations
+                    <img id="venue-3" src="https://www.labanquets.com/galleries/glenoaks/Glenoaks%20Ballroom%20by%20LA%20Banquets%20Wedding%20Venuesin%20Los%20Angeles%20and%20Banquet%20Halls%20in%20Glendale%20CA(05).jpg"/>
+                    <input type="checkbox" name="to-do-list"/>
+                        Recuerdos / Souviners ideas or Craft Store <!--many do it your self ideas (links)-->
                 <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTyIt5_Bz9Od_gYA_wR5dH-yXEfw2kLULRvWw&usqp=CAU" alt="souviners">
                 </a>
-                    Event Coordinator or Craft Store <!--many do it your self ideas (links)-->
+                Event Coordinator
                 </a>
-            </p>
+            
+            </h4>
+        </div> 
+    </div> 
+        <h3>
+            
         </h3>
             <ol>
                 <li>
@@ -184,5 +199,15 @@
             </ol>
          
     </div>
+    <div class="container">
+        <h4 id="Photographer">
+            <img id="camera-image" src="https://cdn1.vectorstock.com/i/1000x1000/91/50/photography-photo-camera-character-cartoon-vector-17099150.jpg" alt="camera-image"/>
+        </h4>
+        <button>
+            <a href="#return-to-top">
+                Back to the Top of Page
+            </a>
+        </button>
+</div>
 </body>
 </html> 
