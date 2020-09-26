@@ -21,9 +21,12 @@
 .card-text {
     color: white;
 }
+.links-color {
+    color: white;
+}
 #venue-1 {
     background-color: transparent;
-    width: 300;
+    width: 300px;
     height: 300px;
     border-radius: 35%;
 }
@@ -35,9 +38,9 @@
 }
 #venue-3 {
     background-color: transparent;
-    width: 1000px;
-    height: 700px;
-    border-radius: 25%;
+    width: 300px;
+    height: 200px;
+    border-radius: 35%;
 }
 body {
     background-image: url( https://www.stylestorycreative.com/wp-content/uploads/2019/06/0-best-columbus-wedding-venues-style-and-story.jpg);
