@@ -15,9 +15,15 @@
     font-weight: bold;
     font-family: "Apple Chancery", cursive;
 } 
+.card-title {
+    color: white;
+}
+.card-text {
+    color: white;
+}
 #venue-1 {
     background-color: transparent;
-    width: 300px;
+    width: 300;
     height: 300px;
     border-radius: 35%;
 }
