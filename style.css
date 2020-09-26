@@ -15,6 +15,13 @@
     font-weight: bold;
     font-family: "Apple Chancery", cursive;
 } 
+.card-style {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border-radius: 35%;
+}
+}
 .card-title {
     color: white;
 }
@@ -93,7 +100,7 @@ h1 {
   color:rgb(164, 164, 224);
   width: 400px;
   height: 290px;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRACs1xSNFbzU4UJPGBDmTrQYqAanVwW8lyA&usqp=CAU);
+  background-image: url();
   border-radius: 25%;
   border-color: gold;
   border-style: dotted;
