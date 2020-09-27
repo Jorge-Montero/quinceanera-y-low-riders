@@ -30,6 +30,7 @@
 .links-color {
     color: white;
 }
+
 #venue-1 {
     background-color: transparent;
     width: 300px;
@@ -136,9 +137,9 @@ h1 {
     text-align: center;
     border-radius: 20%;
     border-style: dotted;
-    width: 250px;
-    height: 175px;
-    background: rgb(235, 193, 78);
+    width: 300px;
+    height: 200px;
+    background: url(https://www.labanquets.com/galleries/glenoaks/Glenoaks%20Ballroom%20by%20LA%20Banquets%20Wedding%20Venuesin%20Los%20Angeles%20and%20Banquet%20Halls%20in%20Glendale%20CA(05).jpg);
     float: left;
 }
 #camera-image {
