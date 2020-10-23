@@ -12,7 +12,7 @@
 - Photograghy and Video
 - Social Media 
 
-## **_Coreography_**
+## **_Choreography_**
 - (List of Event Coordinators also)
 
 ## **_Recuerdos -"Souviners"_** Flowers and Decorations 
