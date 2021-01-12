@@ -4,6 +4,7 @@
     font-weight: italic;
 }
 #nav-bar {
+    border-color: transparent;
     border-radius: 25%;
     width: auto;
 }
