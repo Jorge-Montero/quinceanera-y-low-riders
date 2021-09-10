@@ -247,15 +247,24 @@ footer {
 /* ========================================================================= */
 /* Services List */
 
-ul.services-list {
-    list-style: none;
+.service {
+    display: inline-block;
+    width: 35%;
 }
 
-img.test {
-    max-width: 50%;
+.service-logo {
+    font-size: xx-large;
+    color: red;
 }
 
-.services-list > li {
+h2.service-description {
+    color: white;
+    font-size: xx-large;
+}
+
+.test2 {
+    color: white;
     display: inline;
 }
+
 
