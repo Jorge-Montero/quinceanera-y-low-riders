@@ -45,7 +45,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* ========================================================================= */
 /* mobile 1st */
 
@@ -53,17 +52,70 @@ table {
     text-align: center;
     font-weight: italic;
 }
+.navMenu {
+
+    border-color: red;
+    border-style: double;
+}
 #nav-bar {
     border-color: transparent;
     border-radius: 25%;
     width: auto;
 }
+.dropDown {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.dropContent {
+    display: inblock;
+    color:violet;
+}
+.dropContent:hover {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.dropbtn:hover .dropContent {display: block;text-align: center;padding-top: 35px;width: 80px;height: 60px;background-color:rgba(240, 157, 240, 0.897);border-radius: 30%;}
+.dropbtn:hover .navItem {
+    background-color: pink;
+    border-top-style: solid;
+    font-size: 35px;
+    width: 80px;
+    height: 60px;
+}
+#photographer:hover {
+    display: block;
+    width: 200px;
+}
 
+.login {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    object-position: center;
+    border-radius: 20%;
+    border-color:pink;
+    border-top: pink;
+    border-bottom: transparent;
+    padding-right: 30px;
+    margin-left: 385px;
+    margin-top: -18px;
+}
+.login:hover {
+    width: 80px;
+    height: 60px;
+}
 #title {
     font-size: 75px;
     border-block-style: dotted;
-    border-color: rgb(231, 198, 8);
-    color: rgb(235, 211, 211);
+    border-color: black;
+    color: rgb(231, 188, 188);
     text-align: center;
     font-weight: bold;
     font-family: "Apple Chancery", cursive;
@@ -103,8 +155,8 @@ table {
     border-radius: 35%;
 }
 body {
-    background-image: url( https://www.stylestorycreative.com/wp-content/uploads/2019/06/0-best-columbus-wedding-venues-style-and-story.jpg);
-   opacity: 0.9;
+   background-color: white;
+ 
 }
 #celebrate {
   font-weight: bold;
@@ -242,7 +294,12 @@ h1 {
 footer {
     float:  bottom;
 }
-
+.navMenu {
+    display: flex;
+    flex-direction: row;
+    border-color: red;
+    border-style: double;
+}
 
 /* ========================================================================= */
 /* Services List */
