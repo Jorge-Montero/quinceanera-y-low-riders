@@ -120,6 +120,49 @@ table {
     font-weight: bold;
     font-family: "Apple Chancery", cursive;
 } 
+.haveU:hover {
+    color: purple;
+    font-weight: bolder;
+    font-size: larger;
+}
+.cardTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container1 { 
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding: 5px;
+    object-fit: cover;
+}
+.container2 {
+    flex-grow: 1;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: space-around;
+    padding: 5px;
+    object-fit: cover;
+}
+.container3 {
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding: 5px;
+    object-fit: cover;
+}
+.container4 { 
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding: 5px;
+    object-fit: fill;
+}
 .card-style {
     background-color: transparent;
     width: 310px;
