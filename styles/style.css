@@ -48,7 +48,8 @@ table {
 /* ========================================================================= */
 /* mobile 1st */
 
-#header{
+header{
+    position: fixed;
     text-align: center;
     font-weight: italic;
 }
