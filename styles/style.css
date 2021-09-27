@@ -52,6 +52,10 @@ header{
     position: fixed;
     text-align: center;
     font-weight: italic;
+    font-weight: bolder;
+}
+header:hover {
+    border:transparent;
 }
 .navMenu {
 
@@ -72,7 +76,9 @@ header{
 }
 .dropContent {
     display: inblock;
-    color:violet;
+    color: purple;
+    justify-content: space-evenly;
+
 }
 .dropContent:hover {
     background-color: white;
@@ -80,9 +86,9 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
 }
-.dropbtn:hover .dropContent {display: block;text-align: center;padding-top: 35px;width: 80px;height: 60px;background-color:rgba(240, 157, 240, 0.897);border-radius: 30%;}
+.dropbtn:hover .dropContent {display: block;text-align: center;margin-top:15px;padding-left: 20px;padding-right: 20px;padding-bottom: 15px;padding-top: 10px;justify-content: space-evenly;background-color:rgb(247, 247, 115);border-radius: 10%;border-color: violet;border-bottom: yellow;}
 .dropbtn:hover .navItem {
-    background-color: pink;
+    background-color: cornsilk;
     border-top-style: solid;
     font-size: 35px;
     width: 80px;
@@ -92,7 +98,6 @@ header{
     display: block;
     width: 200px;
 }
-
 .login {
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
@@ -121,30 +126,46 @@ header{
     font-weight: bold;
     font-family: "Apple Chancery", cursive;
 } 
+main {
+    padding-top: 185px;
+
+}
 .haveU:hover {
     color: purple;
     font-weight: bolder;
     font-size: larger;
 }
-.cardTop {
+.cardGroup1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    max-width: 600px;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    text-align: center;
     flex-wrap: wrap;
 }
 .container1 { 
-    flex-grow: 1;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: space-around;
-    padding: 5px;
+    align-items: center;
     object-fit: cover;
 }
 .container2 {
-    flex-grow: 1;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: space-around;
+    display: flex;
+    width: 100%;
+    border-style: double;
+    border-color: lime;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     padding: 5px;
     object-fit: cover;
 }
@@ -208,13 +229,15 @@ body {
   font-family: cursive;  
   width: 325px;
   height: 115px;
+  font-size: larger;
   text-align: center;
   border-color: rgb(238, 255, 0);
-  border-style: dotted;
   background: pink;
   border-radius: 40%;
   margin:  auto;
-  padding: 5px 10px 20px;
+  padding-top: 75px;
+  padding-left: 217px;
+  padding-right: 217px;
   opacity: 0.7;
 }
 h1 {
