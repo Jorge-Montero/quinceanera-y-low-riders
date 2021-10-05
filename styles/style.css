@@ -49,7 +49,6 @@ table {
 /* mobile 1st */
 
 header{
-   
     text-align: center;
     font-weight: italic;
     font-weight: bolder;
@@ -58,7 +57,6 @@ header:hover {
     border:transparent;
 }
 .navMenu {
-    
     border-color: red;
     border-style: double;
 }
@@ -77,7 +75,7 @@ header:hover {
 .dropContent {
     position: fixed;
     display: inblock;
-    color: purple;
+    color: rgb(180, 89, 180);
     justify-content: space-evenly;
 
 }
@@ -112,7 +110,9 @@ header:hover {
     border-bottom: transparent;
     padding-right: 30px;
     margin-left: 385px;
-    margin-top: -18px;
+    margin-top: 8px;
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
 .login:hover {
     width: 80px;
@@ -132,7 +132,7 @@ header:hover {
 
 } 
 main {
-    padding-top: 185px;
+    padding-top: 25px;
 
 }
 table, th, td {
@@ -154,13 +154,53 @@ table, th, td {
     flex-wrap: wrap;
 }
 .card {
+    width: 250px;
+    height: 250px;
+    margin: 2em;
     display: flex;
-    max-width: 600px;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    position:relative;
+    cursor: pointer;
+    transition:  all .4s;
+}
+.card:hover {
+    color: white;
+}
+.card::before, .card::after {
+    content:'';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/laJollaPier.jpg");
+    object-fit: cover;
+    z-index: -1;
+    border-radius: 10px;
+    transition: all .4s;
+}
+.card::after {
+    background: purple;
+    transform-origin: right center;
+    transform: translate(10%, 10%)scale(0.3);
+    border-radius: 30%;
+    transition: all .4s;
+}
+.card:hover::after {
+    transform: translate(0) scale(1);
+    border-radius: 0;
+    border-radius: 10px;
+}
+.card:hover::before {
+    transform-origin: right bottom;
+    transform: translate(10%, 10%) scale(0.3);
+    border-radius: 50%;
+    z-index: 1;
+}
+.card-item {
+    flex-direction: row;
 }
 .container1 { 
     display: flex;
@@ -211,7 +251,21 @@ table, th, td {
 .links-color {
     color: white;
 }
-
+#venueX {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+#dress {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+#church {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
 #venue-1 {
     background-color: transparent;
     width: 300px;
@@ -255,11 +309,15 @@ h1 {
     color: black;
     font-style: italic;
 }
-#church-1 {
-    
-    width: 300px;
-    height: 200px;
-    border-radius: 35%;
+h1:hover {
+    font-size: x-large;
+    color: blueviolet;
+}
+#church1 {
+
+   width:250px;
+   height: 200px; 
+   object-fit: cover;
 }
 
 #vestido-button {
