@@ -52,6 +52,7 @@ header{
     text-align: center;
     font-weight: italic;
     font-weight: bolder;
+    padding-top: 45px;
 }
 header:hover {
     border:transparent;
@@ -61,9 +62,10 @@ header:hover {
     border-style: double;
 }
 #nav-bar {
+    position: fixed;
     border-color: transparent;
     border-radius: 25%;
-    width: auto;
+    
 }
 .dropDown {
     display: flex;
@@ -73,27 +75,41 @@ header:hover {
     justify-content: space-evenly;
 }
 .dropContent {
-    position: fixed;
-    display: inblock;
+    display: flex;
+    padding-left: 85px;
+    flex-direction: row;
     color: rgb(180, 89, 180);
     justify-content: space-evenly;
 
 }
 .dropContent:hover {
-    background-color: white;
+    background-color: purple;
+    color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.dropbtn:hover .dropContent {display: block;text-align: center;margin-top:15px;padding-left: 20px;padding-right: 20px;padding-bottom: 15px;padding-top: 10px;justify-content: space-evenly;background-color:rgb(247, 247, 115);border-radius: 10%;border-color: violet;border-bottom: yellow;}
+.dropbtn:hover .dropContent {display: block;color:rgb(86, 150, 86);align-content: space-around;background-color:white;font-size:55px;border-radius: 10%;border-color: violet;border-bottom: yellow;}
 .dropbtn:hover .navItem {
     background-color: cornsilk;
     border-top-style: solid;
-    font-size: 35px;
+    font-size: 55px;
     width: 80px;
     height: 60px;
 }
 #photographer:hover {
+    display: block;
+    width: 200px;
+}
+#venue:hover {
+    display: block;
+    width: 200px;
+}
+#dress:hover {
+    display: block;
+    width: 200px;
+}
+#church:hover {
     display: block;
     width: 200px;
 }
