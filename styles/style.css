@@ -164,9 +164,9 @@ table, th, td {
 }
 .cardGroup1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
-    flex-direction:row;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 .card {
@@ -273,14 +273,19 @@ table, th, td {
     object-fit: cover;
 }
 #dress {
-    width: 250px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
 #church {
-    width: 250px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
+}
+#photography {
+    width: 100%;
+    height: auto;
+        object-fit: cover;
 }
 #venue-1 {
     background-color: transparent;
