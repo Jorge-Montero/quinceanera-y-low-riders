@@ -138,7 +138,8 @@ header:hover {
     font-size: 75px;
     border-block-style: dotted;
     border-color: black;
-    color: rgb(231, 188, 188);
+    color: rgb(196, 127, 127);
+    background-color: rgb(205, 241, 248);
     text-align: center;
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
